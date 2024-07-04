@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi is a sample HTML 5 form</title>
+    <link rel="stylesheet" href="../Form/css/style.css">
+    <link rel="stylesheet" href="../Table/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../Video/video.html">Video</a></li>
+                <li><a href="./form.html">Form</a></li>
+                <li><a href="../Table/htmltable.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section>
+            <h2>Fill out the form</h2>
+
+            <form id="form">
+                <label for="">First Name:
+                    <input type="text" placeholder="First Name">
+                </label>
+                <label for="">Last Name
+                    <input type="text" placeholder="Last Name">
+                </label>
+
+                <label for="">Your Email
+                    <input type="text" placeholder="Your Email">
+                </label>
+
+                <fieldset>
+                    <legend>Your gender</legend>
+                    <label for="male">
+                        <input type="radio" name="gender" id="male">Male
+                    </label>
+
+                    <label for="Female">
+                        <input type="radio" name="gender" id="female">Female
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Terms</legend>
+                    <input type="checkbox" name="" id="">Yes
+                    <input type="checkbox" name="" id="">No
+                </fieldset>
+
+                <fieldset>
+                    <legend>instructions</legend>
+                    <textarea name="" cols="30" rows="2"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  
+h2 {
+    text-align: center;
+    color: aquamarine;
+    padding: 50px;
+}
+.main{
+    width: auto;
+    height: 950px;
+    background-image: url('../assets/img/nature.jpg');
+}
+
+.audio, .video, .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    padding-top: 15px;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+.download {
+    padding: 15px;
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.download a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+}
+
+.download:hover{
+    background-color: aqua;
+}
+
+.download a:hover {
+    color: rgb(0, 0, 0);
+}
+
